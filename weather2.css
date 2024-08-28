@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+
+h1{
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background: transparent;
+}
+
+#myVideo {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+   bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    left: 0;
+  }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+#input{
+    height: min-content;
+    justify-content: space-between;
+    width: 54%;
+    font-size: 20px;
+    text-transform: capitalize;
+  
+    background-color: rgb(0 0 0 / 30%);
+    padding: 12px 16px;
+    border-radius: 14px;
+}
+#search{
+    width: 100px;
+    height: 46px;
+    background-color:rgb(0.5 0.5 0.5 / 30%);
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#search button:hover{
+    color: #fff;
+    background-color: rgb(0 0 0 / 50%);
+}
+.weather{
+   
+    color: black;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 200px;
+    height: 200px;
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 20px;
+    background: rgb(0 0 0 / 50%);
+    padding: 2px 20px;
+    border-radius: 15px;
+    color:#fff;
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: black;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    margin: 20px 50px;
+   color: black;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color:#fff;
+    background: rgb(0 0 0 / 50%);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.divider2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: #fff;
+    background: rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    
+}
+.desc{
+    color: black;
+    font-weight: bold;
+}
